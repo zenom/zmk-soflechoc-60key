@@ -43,6 +43,11 @@
             bindings = <&kp LA(N)>;
             key-positions = <27 32>;
         };
+
+        VIM {
+            bindings = <&mo 1>;
+            key-positions = <27 26>;
+        };
     };
 
     keymap {
