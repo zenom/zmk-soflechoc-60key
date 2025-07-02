@@ -39,6 +39,16 @@
             bindings = <&kp LA(N)>;
             key-positions = <28 31>;
         };
+
+        Layer1 {
+            bindings = <&mo 1>;
+            key-positions = <26 27>;
+        };
+
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <34 35>;
+        };
     };
 
     behaviors {
