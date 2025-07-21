@@ -36,19 +36,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        WEZLEADER {
-            bindings = <&kp LA(N)>;
-            key-positions = <27 32>;
-        };
-
-        VIM {
-            bindings = <&mo 1>;
-            key-positions = <27 26>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
